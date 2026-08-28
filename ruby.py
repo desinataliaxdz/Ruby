@@ -1556,4 +1556,7 @@ TOKEN = os.getenv("DISCORD_TOKEN")
 # RUN BOT
 # ============================================================
 
+print("RUBY.PY HAS STARTED")
+print("TOKEN FOUND:", TOKEN is not None)
+
 bot.run(TOKEN)
